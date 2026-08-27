@@ -1,0 +1,38 @@
+name: lumen
+description: Local-first spaced repetition. Import Anki decks, study with FSRS.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  drift: ^2.22.1
+  sqlite3_flutter_libs: ^0.5.28
+  sqlite3: ^2.5.0
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  archive: ^4.0.2
+  es_compression: ^2.0.3
+  fsrs: ^2.0.1
+  file_picker: ^8.1.7
+  desktop_drop: ^0.5.0
+  intl: ^0.20.2
+  collection: ^1.19.0
+  window_manager: ^0.4.3
+  just_audio: ^0.9.46
+  audio_session: ^0.1.25
+  video_player: ^2.9.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.22.1
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true

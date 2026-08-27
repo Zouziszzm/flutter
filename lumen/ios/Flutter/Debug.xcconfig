@@ -1,0 +1,2 @@
+DEVELOPER_DIR = /Applications/Xcode.app/Contents/Developer
+#include "Generated.xcconfig"
